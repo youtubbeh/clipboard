@@ -1,0 +1,36 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.guide {
+    color: hsl(171, 66%, 44%);
+    color: hsl(233, 100%, 69%);
+    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+    font-size: 18px; /*body*/
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400, 600;
+
+    /*
+    - Mobile: 375px
+    - Desktop: 1440px
+    */
+
+    /* social icons
+
+    ion-icon {
+        color: blue;
+        font-size: 64px;
+    }
+
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-twitter"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    
+    */
+
+}
