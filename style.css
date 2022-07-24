@@ -18,7 +18,7 @@ body {
     background-image: url(./images/bg-header-desktop.png);
     background-color: white;
     background-repeat: no-repeat;
-    margin: 100px 10% 10px 10%;
+    margin: 0 auto;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -28,6 +28,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     gap: 80px;
+    margin: 100px 10% auto 10%;
 }
 
 header, section {
@@ -132,13 +133,60 @@ p {
     justify-content: space-between;
 }
 
+footer {
+    background-color: #f6f6f6;
+    padding: 40px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper {
+    width: 190px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    column-gap: 3em;
+    width: 400px;
+}
+
+.social {
+    display: flex;
+    gap: 1.5em;
+    float: right;
+}
+
+footer img {
+    width: 50px;
+    object-fit: cover;
+}
+
+.social img {
+    width: 25px;
+}
+
+.footer-links p {
+    margin: 8px 0;
+    padding: 0px;
+    color: hsl(201, 11%, 55%);
+    font-size: 16px;
+    line-height: 0.7em;
+}
+
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
     width: 100%;
+    position: absolute;
+    top: 0px;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(201, 11%, 66%);
 }
 
 .guide {
