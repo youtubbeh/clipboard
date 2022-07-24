@@ -1,5 +1,21 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
 .attribution {
     font-size: 11px; text-align: center;
+    width: 100%;
 }
 
 .attribution a {
@@ -19,18 +35,4 @@
     - Mobile: 375px
     - Desktop: 1440px
     */
-
-    /* social icons
-
-    ion-icon {
-        color: blue;
-        font-size: 64px;
-    }
-
-    <ion-icon name="logo-facebook"></ion-icon>
-    <ion-icon name="logo-twitter"></ion-icon>
-    <ion-icon name="logo-instagram"></ion-icon>
-    
-    */
-
 }
