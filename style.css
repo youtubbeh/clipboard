@@ -1,3 +1,12 @@
+/*
+Hacer:
+-style section por section: colores, weights, borders, etc
+-style flex y margins
+-cerrar desktop
+-aplicar a mobile
+-hover states
+*/
+
 html {
     box-sizing: border-box;
   }
