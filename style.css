@@ -22,10 +22,6 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.big {
-    max-width: 50%;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -39,11 +35,6 @@ header, section {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.clients {
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 header, .access .ios-mac, .main-text {
@@ -132,9 +123,14 @@ p {
     font-size: 14px;
 }
 
+.big {
+    max-width: 50%;
+}
 
-
-
+.clients {
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .attribution {
     font-size: 11px; text-align: center;
