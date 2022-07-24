@@ -18,23 +18,74 @@ body {
     background-image: url(./images/bg-header-desktop.png);
     background-color: white;
     background-repeat: no-repeat;
-    margin: 50px 10% 10px 10%;
+    margin: 100px 10% 10px 10%;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.big {
+    max-width: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+header, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.clients {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header, .access .ios-mac, .main-text {
+    padding: 0 18%;
+}
+
 header img {
-    width: 70px;
+    width: 110px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.hero-description {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.download {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 button {
     border: none;
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     padding: 10px;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 700;
     color: white;
     border-radius: 9em;
+    font-size: 15px;
 }
 
 .green {
@@ -45,7 +96,18 @@ button {
     background-color: hsl(233, 100%, 69%);
 }
 
-h1, h2 {
+.twosides {
+    display: flex;
+    padding: 5%;
+}
+
+.twosides .big {
+    position: relative;
+    right: 200px;
+    }
+
+h2 {
+    font-size: 30px;
     font-weight: 700;
     color: hsl(210, 10%, 33%);
     text-align: center;
@@ -54,23 +116,25 @@ h1, h2 {
 h3 {
     font-weight: 700;
     color: hsl(210, 10%, 33%);
+    font-size: 20px;
 }
 
 p {
     color: hsl(201, 11%, 66%);
 }
 
-.hero-description {
-    font-size: 18px;
-}
-
 .description {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .feature-description {
-    font-size: 12px;
+    font-size: 14px;
 }
+
+
+
+
 
 .attribution {
     font-size: 11px; text-align: center;
