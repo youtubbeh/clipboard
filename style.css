@@ -82,10 +82,12 @@ button {
 
 .green {
     background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 3px hsl(171, 66%, 33%);
 }
 
 .purple {
     background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 3px #5161D9;
 }
 
 .twosides {
