@@ -1,6 +1,5 @@
 /*
 Hacer:
--hover states
 -aplicar a mobile
 */
 
@@ -247,10 +246,6 @@ footer img {
     object-fit: cover;
 }
 
-.social img {
-    width: 22px;
-}
-
 .footer-links p {
     margin: 8px 0;
     padding: 0px;
@@ -264,7 +259,12 @@ footer img {
     cursor: pointer;
 }
 
-.social img:hover {
+ion-icon {
+    font-size: 28px;
+    color: hsl(210, 10%, 33%);
+}
+
+ion-icon:hover {
     color: hsl(171, 66%, 44%);
     cursor: pointer;
 }
