@@ -94,6 +94,16 @@ button {
     box-shadow: 0 3px #5161D9;
 }
 
+.green:hover {
+    background-color: hsl(171, 66%, 54%);
+    cursor: pointer;
+}
+
+.purple:hover {
+    background-color: hsl(233, 100%, 79%);
+    cursor: pointer;
+}
+
 .track {
     height: 760px;
 }
@@ -247,6 +257,16 @@ footer img {
     color: hsl(201, 11%, 55%);
     font-size: 16px;
     line-height: 1.5em;
+}
+
+.footer-links p:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.social img:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
 }
 
 .attribution {
