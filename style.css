@@ -1,10 +1,7 @@
 /*
 Hacer:
--style section por section: colores, weights, borders, etc
--style flex y margins
--cerrar desktop
--aplicar a mobile
 -hover states
+-aplicar a mobile
 */
 
 html {
@@ -65,13 +62,14 @@ h1 {
 .hero-description {
     font-size: 18px;
     text-align: center;
-    margin: 0 0 50px 0;
+    margin: 0;
 }
 
 .download {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 button {
@@ -202,16 +200,13 @@ p {
     max-width: 15%;
 }
 
-
 .ios-mac {
-
-
-
-
-
+    margin-bottom: 140px;
 }
 
-
+.ios-mac .description {
+    margin-bottom: 0;
+}
 
 footer {
     background-color: #f6f6f6;
