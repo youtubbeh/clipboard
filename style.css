@@ -27,7 +27,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 90px;
+    gap: 95px;
     margin: 100px 10% auto 10%;
 }
 
@@ -41,6 +41,7 @@ header, section {
     align-items: center;
     justify-content: space-between;
     margin: 0 0 30px 0;
+    width: 100%;
 }
 
 header, .access .ios-mac, .main-text {
@@ -160,10 +161,57 @@ p {
     margin-top: -60px;
 }
 
+.visual-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.visual-features p, .visual-features h3 {
+    text-align: center;
+}
+
+.icon-feature {
+    max-width: 280px;
+}
+
+.icon-wrapper {
+    width: 60px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.icon-wrapper img {
+    display: block;
+    max-width: 40px;
+    margin: 0 auto;
+}
+
+.icon[src="./images/icon-text.svg"] {
+    max-width: 34px;
+}
+
 .clients {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.clients img {
+    max-width: 15%;
+}
+
+
+.ios-mac {
+
+
+
+
+
+}
+
+
 
 footer {
     background-color: #f6f6f6;
