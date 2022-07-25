@@ -69,6 +69,7 @@ h1 {
     gap: 15px;
     flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: center;
 }
 
 button {
@@ -283,6 +284,88 @@ ion-icon:hover {
 .attribution a {
     color: hsl(201, 11%, 66%);
 }
+
+@media all and (max-width: 375px) {
+    body {
+        background-image: url(./images/bg-header-mobile.png);
+    }
+}
+
+@media all and (max-width: 700px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-wrapper {
+        width: auto;
+        margin: 15px 0 30px 0;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-links p {
+        margin: 12px 0;
+        font-size: 18px;
+    }
+
+    #faq {
+        order: 1;
+    }
+    #contact {
+        order: 2;
+    }
+    #privacy {
+        order: 3;
+    }
+    #press {
+        order: 4;
+    }
+    #install {
+        order: 5;
+    }
+
+    .social {
+        margin-left: 0;
+    }
+
+}
+
+@media all and (max-width: 1050px) {
+    .visual-features {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-wrapper {
+        width: auto;
+        margin: 15px 0 30px 0;
+    }
+
+    .footer-links {
+        margin-bottom: 40px;
+    }
+
+    .social {
+        margin-left: 0;
+    }
+
+}
+
+
+
 
 .guide {
     color: hsl(171, 66%, 44%);
