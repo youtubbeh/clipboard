@@ -204,10 +204,13 @@ p {
 .clients {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 
 .clients img {
     max-width: 15%;
+    min-width: 150px;
 }
 
 .ios-mac {
@@ -334,7 +337,6 @@ ion-icon:hover {
     .social {
         margin-left: 0;
     }
-
 }
 
 @media all and (max-width: 1050px) {
@@ -343,6 +345,12 @@ ion-icon:hover {
         align-items: center;
         gap: 70px;
     }
+
+    .clients {
+        flex-direction: column;
+        min-height: 530px;
+    }
+
 
     footer {
         flex-direction: column;
@@ -361,7 +369,6 @@ ion-icon:hover {
     .social {
         margin-left: 0;
     }
-
 }
 
 
